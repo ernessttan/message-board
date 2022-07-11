@@ -1,0 +1,12 @@
+extends layout
+
+block content
+ header 
+    h1= title
+ main
+    h2="Add a message"
+    form(method="post" action="/new")
+        input(type="text", placeholder="Enter your name" name="name")
+        input(type="text", placeholder="Enter message" name="message")
+        div.post-container
+         button(type="submit") Post

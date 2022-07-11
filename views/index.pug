@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  header 
+    h1= title
+  main
+    div.add-container
+      a(href=`http://localhost:${process.env.PORT || 3000}/new`).add-btn Add a new message
+    ul
+      each message in messages 
+        li.message-card
+          h2= message.user
+          p.message-text= message.text
+          p.date= message.added
+

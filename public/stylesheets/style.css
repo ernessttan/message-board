@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  height: 100%;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00B7FF;
+  padding: 50px;
+  color: white;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 20px;
+}
+
+main {
+  margin: auto;
+  padding: 50px 100px 50px 100px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#00B7FF;
+  padding: 10px 30px 10px 30px;
+  border-radius: 60px;
+  color: white;
+  font-weight: bold;
+  outline: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 100px 0 100px;
+}
+
+input {
+  padding: 20px;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.message-card {
+  border: 1px lightgray solid;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.message-text {
+  padding: 10px 0 10px 0;
+  font-size: 30px;
+}
+
+.date {
+  color: gray
+}
+
+.add-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 20px 0;
+}
+
+.add-btn {
+  text-decoration: none;
+  border: 1px #00B7FF solid;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.add-btn:hover {
+  background-color: #00B7FF;
+  color: white;
+}
+
+.post-container {
+  display: flex;
+  justify-content: flex-end;
+}
